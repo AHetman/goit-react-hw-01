@@ -7,8 +7,4 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
-
-  optimizeDeps: {
-    include: ["*.jsx"], // Включает файлы JSX в список модульных файлов
-  },
 });
