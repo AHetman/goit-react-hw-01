@@ -1,0 +1,27 @@
+.friendListItem {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: calc((670px - 48px) / 5);
+  padding: 16px 0;
+}
+
+.friendListAvatar {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.friendName {
+  /* padding-top: 10px; */
+  font-size: 30px;
+}
+
+.profileColorOnline {
+  font-size: 20px;
+  color: green;
+}
+
+.profileColorOffline {
+  font-size: 20px;
+  color: red;
+}
